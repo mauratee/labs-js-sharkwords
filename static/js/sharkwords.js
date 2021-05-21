@@ -30,12 +30,12 @@ const createDivsForChars = (word) => {
 const generateLetterButtons = () => {
   // loop over each char in string ALPHABET
   for (const letter of ALPHABET) {
+    // create button <button>letter</button>
     let btn = document.createElement("button");
     btn.innerHTML = letter;
-    document.body.appendChild(btn)
+    // append each button to id="#letter-buttons"
+    document.getElementById("letter-buttons").appendChild(btn)
   }
-  // create button <button>letter</button>
-  // append each button to id="#letter-buttons"
 };
 
 // Set the `disabled` property of `buttonEl` to `true.
