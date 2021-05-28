@@ -26,6 +26,7 @@ const createDivsForChars = (word) => {
   }
 };
 
+
 // Loop over each letter in `ALPHABET` and generate buttons.
 const generateLetterButtons = () => {
   // loop over each char in string ALPHABET
@@ -38,10 +39,9 @@ const generateLetterButtons = () => {
   }
 };
 
+
 // Set the `disabled` property of `buttonEl` to `true.
-//
 // `buttonEl` is an `HTMLElement` object.
-//
 const disableLetterButton = (buttonEl) => {
   // Replace this with your code
 };
